@@ -1,0 +1,238 @@
+﻿<!DOCTYPE html>
+<html lang="pl">
+<head>
+	<meta charset="UTF-8"><!-- Kodowanie strony  -->
+	
+	<title>Modne buty - DzideR&S.pl </title>
+
+	<link href="https://fonts.googleapis.com/css?family=Lato|Lobster" rel="stylesheet"> <!-- Korzystamy z czcionek Lato i Lobster, pobieranych z serwera Google  -->
+	<link rel="stylesheet" href="styles/style.css" type="text/css"> <!-- Korzystamy z własnego arkusza styli  -->
+	<link rel="stylesheet" href="styles/bootstrap/bootstrap.css" type="text/css"> <!-- Korzystamy z biblioteki bootstrap  -->
+	
+	<script src="scripts/jquery-3.2.1.js"></script><!-- Korzystamy z biblioteki jquery  -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+	<script src="scripts/script.js"></script> <!-- Korzystamy z własnych skrytów JavaScript  -->
+	<script src="scripts/bootstrap/bootstrap.js"></script><!-- Korzystamy z biblioteki bootstrap  -->
+
+</head>
+<body>
+	
+	<div id='top-background'></div> <!-- Tło na górze strony, jako wartswa absolutna TOP -->
+	<div id='bottom-background'></div> <!-- Tło na dole strony, jako wartswa absolutna BOTTOM -->
+	
+	<div class="container"> <!-- Poczatek deklaracji kontenera bootstrapa -->
+		<div class="row"> <!-- Zdefiniowanie werisza bootstrapa -->
+			<div class="col-12"> <!-- Zdefiniowanie maksymalnej szerokości kolumny boostrapa -->
+				<header id="header"><!-- Nagłówek, zgodnie ze standardem HTML5 -->
+					<div id="hgroup"> <!-- Nagłówek -->
+						<h1>
+							DzideR&S.pl 
+						</h1>
+						<h2>
+							Młodzieżowy styl
+						</h2>
+						
+						<img id='logo' src='images/logo.png' title='logo'>
+						
+						<nav> <!-- menu -->
+							<ul>
+								<li><a href="DlaczegokochamyCustomy.html" title="Dlaczego kochamy Customy?">Dlaczego kochamy Customy?</a></li>
+								<li><a href="Sneakersy.html" title="Sneakersy" >Sneakersy</a></li>
+								<li><a href="Jakwybracsneakersy.html" title="Jak wybrać sneakersy?">Jak wybrać sneakersy?</a></li>
+							</ul>
+						</nav>
+					</div>
+				</header>
+			</div>		 
+		</div>
+		<div class="row">
+			<div class="col-12"> 
+				
+				<ul id="slider"> <!-- Slider reklamowy, który obsługiwany jest przez JavaScript w pliku scripts/script.js -->
+					<li><img src="images/slider/1.png" alt="" /></li>
+					<li><img src="images/slider/2.jpg" alt="" /></li>
+					<li><img src="images/slider/3.jpg" alt="" /></li>
+				</ul>
+				
+			</div>		 
+		</div>
+		
+		<h1 class='title'>Nasze pomysły na modę</h1><!-- Nagłówek  -->
+		
+		<div class="row" id="offer">
+
+			<div class="col-xl-4 col-lg-12"> <!-- Bootstrap - definicja warstwy, dla dużych ekranów 4 jednostki, dla mniejszycg 12 jednostek -->
+				<section> <!-- Początek sekcji, zgodnie ze standardem HTML5 -->
+					<article> <!-- Początek artykułu, zgodnie ze standardem HTML5 -->
+						<figure> <!-- Obszar obrazka, zgodnie ze standardem HTML5 -->
+							<img src="images/1.jfif" alt="Kurtka">
+						</figure>
+						<strong>Dlaczego kochamy Customy?</strong>
+						<p>Im bardziej angażujemy się w sneakersowy świat, tym więcej od niego oczekujemy. Więcej kolorów, więcej technologii, więcej wzorów, no i ogólnie to najlepiej więcej sneakersów. Czasami dochodzi do momentu, w którym znalezienie idealnego buta spędza nam już sen z powiek. Nadanie wyjątkowości naszym ukochanym sneakersom...</p>
+						<p class="more">
+							<a href="DlaczegokochamyCustomy.html" title="Dlaczego kochamy Customy?">
+								Więcej »
+							</a>
+						</p>
+					</article>
+				</section>
+			</div>
+			<div class="col-xl-4 col-lg-12">  <!-- Bootstrap - definicja warstwy, dla dużych ekranów 4 jednostki, dla mniejszycg 12 jednostek -->
+				<section><!-- Początek sekcji, zgodnie ze standardem HTML5 -->
+					<article><!-- Początek sekcji, zgodnie ze standardem HTML5 -->
+						<figure><!-- Obszar obrazka, zgodnie ze standardem HTML5 -->
+							<img src="images/2.jpg" alt="Kurtka">
+						</figure>
+						<strong>Sneakersy</strong>
+						<p>Nowi rok, nowi my, znacie to? A znacie osoby, które mimo różnych postanowień noworocznych na pewno nie zmieniają jednej rzeczy…? I niezależnie od aury panującej na zewnątrz, nigdy nie rezygnują z ulubionych sneakersów, bo ich miłość do tego typu butów jest tak wielka? Oczywiście, każdy zna! A jakie buty królują przede wszystkim? Nikogo nie zaskoczymy. Z półek sklepowych znikają... </p>
+						<p class="more">
+							<a href="Sneakersy.html" title="Sneakersy">
+								Więcej »
+							</a>
+						</p>
+					</article>
+				</section>
+			</div>
+			<div class="col-xl-4 col-lg-12"> <!-- Bootstrap - definicja warstwy, dla dużych ekranów 4 jednostki, dla mniejszycg 12 jednostek -->
+				<section><!-- Początek sekcji, zgodnie ze standardem HTML5 -->
+					<article><!-- Początek sekcji, zgodnie ze standardem HTML5 -->
+						<figure><!-- Obszar obrazka, zgodnie ze standardem HTML5 -->
+							<img src="images/3.jpg" alt="Kurtka">
+						</figure>
+						<strong>Jak wybrać sneakersy?</strong>
+						<p>Choć sneakersy już od dawna nie są tylko butami, ale i stylem życia, wiele osób wciąż popełnia poważne błędy, kupując swoje obuwie. Nietrafiony wybór nieraz skutkuje poważniejszymi konsekwencjami niż tylko brakiem komfortu dla stopy. Same sneakersy także mogą łatwo stać się ofiarą Waszej pochopnej decyzji. Prezentujemy Wam zatem pięć złotych... </p>
+						<p class="more">
+							<a href="Jakwybracsneakersy.html" title="Jak wybrać sneakersy?">
+								Więcej »
+							</a>
+						</p>
+					</article>
+				</section>
+			</div>
+		</div>
+		
+		<h1 class='title'>Stylizacje ze sneakersami</h1><!-- Nagłówek  -->
+		
+		<div class="row" id="gallery"> <!-- Kolejny wiersz, Bootstrap -->
+
+			<div class="col-xl-3 col-lg-6 col-md-12"> <!-- Bootstrap - definicja warstwy, dla dużych ekranów 3 jednostki, dla średnich 6 jednostek, dla małych 12 jednostek -->
+				<figure> <!-- Obszar obrazka, zgodnie ze standardem HTML5 -->
+					<img src="images/gallery/1.png" alt="Galeria">
+					<figcaption><a href="http://www.instagram.com/kyliejenner">@kyliejenner</a></figcaption><!-- Obszar opisu obrazka, zgodnie ze standardem HTML5 -->
+				</figure>
+			</div>
+			<div class="col-xl-3 col-lg-6 col-md-12"> <!-- Bootstrap - definicja warstwy, dla dużych ekranów 3 jednostki, dla średnich 6 jednostek, dla małych 12 jednostek -->
+				<figure><!-- Obszar obrazka, zgodnie ze standardem HTML5 -->
+					<img src="images/gallery/2.png" alt="Galeria">
+					<figcaption><a href="http://www.instagram.com/marina_official"><strong>@marina_official</strong></a></figcaption><!-- Obszar opisu obrazka, zgodnie ze standardem HTML5 -->
+				</figure>
+			</div>
+			<div class="col-xl-3 col-lg-6 col-lg-6"> <!-- Bootstrap - definicja warstwy, dla dużych ekranów 3 jednostki, dla średnich 6 jednostek, dla małych 12 jednostek -->
+				<figure><!-- Obszar obrazka, zgodnie ze standardem HTML5 -->
+					<img src="images/gallery/3.png" alt="Galeria">
+					<figcaption><a href="http://www.instagram.com/nataliasiwiec.official">@nataliasiwiec.official</a></figcaption>
+				</figure>
+			</div>
+			<div class="col-xl-3 col-lg-6 col-md-12"> <!-- Bootstrap - definicja warstwy, dla dużych ekranów 3 jednostki, dla średnich 6 jednostek, dla małych 12 jednostek -->
+				<figure><!-- Obszar obrazka, zgodnie ze standardem HTML5 -->
+					<img src="images/gallery/4.png" alt="Galeria">
+					<figcaption><a href="http://www.instagram.com/maffashion_official">@maffashion_official</a></figcaption><!-- Obszar opisu obrazka, zgodnie ze standardem HTML5 -->
+				</figure>
+			</div>
+		
+		<p class="more">
+			<a href="https://www.estillmag.com/oto-stylizacje-ze-sneakersami-ktore-nosza-celebrytki/" title="estillmag.com">
+				Więcej »
+			</a>
+		</p>
+		</div>
+		
+		<table class="table table-striped"> <!-- Tablica, zgodnie ze standardem bootstrap -->
+		<thead class="thead-inverse">
+			<tr>
+				<th>Najpopularniejsze sneakersy</th>
+				<th>Ceny</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td scope="row">Adidas Stan Smith</td>
+				<td>300-400 zł</td>
+			</tr>
+			<tr>
+				<td scope="row">Nike Air Force 1</td>
+				<td>350-450 zł</td>
+			</tr>
+			<tr>
+				<td>Air Jordan 11</td>
+				<td>500-700 zł</td>
+			</tr>
+			<tr>
+				<td>Converse Chuck Taylor All Star</td>
+				<td>200-300 zł</td>
+			</tr>
+			<tr>
+				<td>New Balance 990</td>
+				<td>600-900 zł</td>
+			</tr>
+			<tr>
+				<td>Nike Air Max 1</td>
+				<td>350-500 zł</td>
+			</tr>
+		</tbody>
+		</table>
+		
+		<h1 class='title'>O mnie</h1><!-- Nagłówek  -->
+		
+		<div class="row" id="offer"> <!-- Kolejny wiersz, Bootstrap -->
+
+			<div class="col-12"> 
+				<section>
+					<article>
+						<p>
+							<b>Michał Dziduszko</b>
+						</p>
+						<p>
+							<b>Adres e-mail:</b> misiael18@gmail.com
+						</p>
+						<p>
+							<b>Numer telefonu:</b> 519 157 799  
+						</p>
+					</article>
+				</section>
+			</div>
+		</div>
+		
+		<div class="row"> <!-- Kolejny wiersz, Bootstrap -->
+			<div class="col-12"> 
+				<footer> <!-- Stopka, zgodnie ze standardem HTML5 -->
+					Copyright by <span>Michał Dziduszko</span> &copy 2020
+					
+					<ul>
+						<li>
+							<a href='http://www.facebook.com' title='Facebook'>
+								<img src="images/social/facebook.png" alt="Facebook">
+							</a>
+						</li>
+						<li>
+							<a href='http://www.twitter.com' title='Twitter'>
+								<img src="images/social/twitter.png" alt="Twitter">
+							</a>
+						</li>
+						<li>
+							<a href='http://www.instagram.com' title='Instagram'>
+								<img src="images/social/instagram.png" alt="Instagram">
+							</a>
+						</li>
+					</ul>
+					
+				</footer>
+			</div>
+		</div>
+		
+	</div>
+	
+	
+
+</body>
+</html>
